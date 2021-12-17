@@ -15,7 +15,7 @@ CustomerCheckService customerCheckService;
 		if(customerCheckService.CheckIfRealPerson(customer)){
 			super.save(customer);
 		}else {
-			System.out.println("Hatalı kullanıcı girişi");
+			System.out.println("HatalÄ± kullanÄ±cÄ± giriÅŸi");
 		}		
 		
 	}
